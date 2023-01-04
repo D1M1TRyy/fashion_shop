@@ -1,0 +1,639 @@
+*::before,
+*::after,
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    display: flex;
+    justify-content: center;
+    background: #ffff;
+    margin-top: 30px;
+}
+header nav{
+    display: flex;
+    width: 90%;
+    justify-content: space-between
+}
+header nav .nav-links{
+    width: 40%;
+    display: flex;
+    margin-left: auto;
+}
+header nav .nav-links ul{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header nav .nav-links ul li{
+    list-style: none;
+}
+header nav .nav-links ul li:hover a{
+    color: white;
+    background-color: black;
+}
+header nav .nav-links ul li a{   
+    list-style: none;
+    color: #242323;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 500;
+    padding: 11px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 7px;
+    transition: 0.5s;
+}
+header nav .sign-up{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+header nav .sign-up:hover a{
+    background-color: yellow;
+    color: black;
+}
+header nav .sign-up a{    
+    background: black;
+    color: #fefefe;
+    padding: 11px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: large;
+    font-weight: 500;
+    border-radius: 7px;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+main .lets-explore{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: #F4F6F5;
+    height: 752px;
+    margin: auto;
+    border-radius: 60px;
+    margin-top: 50px;
+}
+main .lets-explore .text-area{
+    width: 45%;
+}
+main .lets-explore .text-area .main-text{
+    display: flex;
+    flex-direction: column;
+    line-height: 10rem;
+    margin-top: 30%;
+    margin-left: 20%;
+}
+main .lets-explore .text-area .main-text ul{
+    line-height: 30rem;
+}
+main .lets-explore .text-area .main-text ul li{
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 100px;
+    list-style: none;
+}
+main .lets-explore .text-area .main-text ul .white{ 
+    padding-left: 20px;
+    padding-right: 110px;
+    transform: rotate(-2deg);
+    background: white ;
+    position: relative;
+    right: 20px;
+}
+main .lets-explore .text-area .main-text ul .white .back{
+    transform: rotate(2deg);
+}
+
+main .lets-explore .text-area .main-text ul .yellow{ 
+    padding-left: 20px;
+    padding-right: 110px;
+    transform: rotate(-2deg);
+    background: yellow ;
+    position: relative;
+    right: 20px;
+}
+main .lets-explore .text-area .main-text ul .yellow .back{
+    transform: rotate(2deg);
+}
+main .lets-explore .text-area .second-text{
+    margin-left: 20%;
+    width: 100%;
+}
+main .lets-explore .text-area .second-text p{
+    font-size: 30px;
+    font-weight: 400;
+}
+main .lets-explore .text-area .shop-row{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+    margin-left: 20%;
+}
+main .lets-explore .text-area .shop-row .shop-bar a{
+    background: black;
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.5s;
+}
+main .lets-explore .text-area .shop-row .shop-bar:hover a{
+    background: yellow;
+    color: black;
+}
+main .lets-explore .picture .stars{
+    display: flex;
+}
+main .lets-explore .picture .stars .star1{
+    position: relative;
+    top: 3rem;
+    left: 30rem;
+}
+main .lets-explore .picture .stars .star2{
+    position: relative;
+    top: 35rem;
+    right: 3rem;
+}
+main .lets-explore .picture .stars .star3{
+    position: relative;
+    right: 10rem;
+}
+main .lets-explore .picture .stars .star4{
+    position: relative;
+    top: 31rem;
+    left: 26rem;
+}
+main .lets-explore .picture .stars img{
+    width: 3rem;
+}
+main .lets-explore .picture{
+    width: 55%;
+    margin-top: auto;
+    margin-left: 10%;
+}
+main .lets-explore .picture img{
+    width: 95%;
+    margin-top: auto;
+}
+
+main .shop-links{
+    background: #EBD96B;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+main .shop-links .shops-frame ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 80%;
+    margin: auto;
+}
+
+main .new-arrivals{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 5%;
+}
+main .new-arrivals .main-text{
+    display: flex;
+    margin-bottom: 90px;
+}
+main .new-arrivals .main-text img{
+    position: relative;
+    left:70px;
+    top: 30px;
+    width: 15%;
+    height: 10%;
+}
+main .new-arrivals .main-text p{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    position: relative;
+    right: 200px;
+}
+main .new-arrivals .cards-text .cards{
+    display: flex;
+    justify-content: space-between;
+}
+main .new-arrivals .cards-text .cards img{
+    width: 30%;
+}
+main .new-arrivals .cards-text .teaxts .title{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+main .new-arrivals .cards-text .teaxts .title p{
+    width: 30%;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px; 
+}
+main .new-arrivals .cards-text .teaxts .button{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+}
+main .new-arrivals .cards-text .teaxts .button p{
+    width: 30%;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+}
+main .new-arrivals .cards-text .teaxts .button p a{
+    color: #7F7F7F;
+    text-decoration: none;
+}
+main .banner{
+    background: linear-gradient(1.32deg, #E0C340 0.13%, #DFC23E 3.97%, #E1C441 7.2%, #E3C743 10.13%, #E4C542 12.98%, #E6C744 15.99%, #E7C845 19.52%, #E5C643 23.96%, #E6C945 30.43%, #E3C743 36.49%, #E9CA48 42.49%, #EDCE49 49.35%, #F0D44C 55.42%, #F4D84F 61.43%, #F6DA52 65.74%, #F7DB53 72.23%, #F9DD55 77.43%, #F9DF56 83.84%, #FAE157 91.52%, #F9DF56 97.87%);
+    display: flex;
+}
+main .banner .picture img{
+    position: relative;
+    top: 4px;
+    width: 80%;
+}
+main .banner .text-area{
+    width: 40%;
+    height: 100%;
+    margin-left: auto;
+}
+main .banner .text-area .main-text{
+    height: 30%;
+    margin-top: 100px;
+}
+main .banner .text-area .main-text ul{
+    list-style: none;
+    position: relative;
+    right: 20%;
+}
+main .banner .text-area .main-text ul li{
+    font-weight: 900;
+    font-size: 90px;
+    line-height: 115px;
+    text-decoration: none;
+}
+main .banner .text-area .main-text ul .white{
+    background: #fff;
+    padding-left: 20px;
+    padding-right: 15px;
+    width: 75%;
+    transform: rotate(-2deg);
+    position: relative;
+    right: 15px;
+}
+main .banner .text-area .main-text ul .white .back{
+    transform: rotate(2deg);
+}
+main .banner .text-area .second-text ul{
+    list-style: none;
+    position: relative;
+    right: 20%;
+    margin-top: 4%;
+}
+main .banner .text-area .second-text ul li{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 52px;
+}
+main .banner .text-area .third-text ul{
+    list-style: none;
+    position: relative;
+    right: 20%;
+    margin-top: 4%;
+    margin-bottom: 7%;
+}
+main .banner .text-area .third-text ul .date{
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 52px;
+}
+main .banner .text-area .third-text ul .text{
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 52px;
+}
+main .banner .text-area .shop-bar a{
+    background: black;
+    color: white;
+    padding: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.5s;
+    position: relative;
+    right: 20%;
+}
+main .banner .text-area .shop-bar a:hover{
+    background: #F4F6F5;
+    color: black;
+}
+main .banner .text-area .stars{  
+    display: flex;
+    margin-left: auto;
+}
+main .banner .text-area .stars img{
+    width: 50px;
+}
+main .banner .text-area .stars .star1{
+    position: relative;
+    right: 850px;
+    bottom: 500px;
+}
+main .banner .text-area .stars .star2{
+    position: relative;
+    right: 400px;
+    bottom: 600px;
+}
+main .banner .text-area .stars .star3{
+    position: relative;
+    right: 380px;
+    bottom: 150px;
+}
+main .banner .text-area .stars .star4{
+    position: relative;
+    right: 910px;
+    bottom: 200px;
+}
+main .offers{
+    width: 90%;
+    margin: auto;
+    margin-top: 9%;
+    margin-bottom: 9%;
+}
+main .offers .main-text{
+    display: flex;
+    margin-bottom: 4%;
+}
+main .offers .main-text p{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 50px;
+    position: relative;
+    right: 13.5%;
+}
+main .offers .main-text img{
+    position: relative;
+    top: 30px;
+    left: 14%;
+}
+
+main .offers .cards-text .cards{
+    display: flex;
+    justify-content: space-between;
+}
+main .offers .cards-text .cards img{
+    width: 47%;
+}
+main .offers .cards-text .texts .title{
+    display: flex;
+    justify-content: space-between;
+}
+main .offers .cards-text .texts .title p{
+    width: 47%;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 50px;
+}
+main .offers .cards-text .texts .button{
+    display: flex;
+    justify-content: space-between;
+}
+main .offers .cards-text .texts .button p{
+    width: 47%;
+}
+main .offers .cards-text .texts .button p a{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 50px;
+    color: #7F7F7F;
+    text-decoration: none;
+}
+main .app-download{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+main .app-download .about .main-text ul{
+    list-style: none;
+    margin-bottom: 10%;
+    margin-top: 50%;
+}
+main .app-download .about .main-text ul li{
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 150%;
+}
+main .app-download .about .second-text ul{
+    list-style: none;
+    margin-bottom: 10%;
+}
+main .app-download .about .second-text ul li{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 35px;
+}
+main .app-download .about .pictures img{
+    width: 40%;
+}
+main .app-download .mobile-pic img{
+    width: 80%;
+}
+main .app-download .mobile-pic .rings .ring-1{
+    width: 22px;
+    position: relative;
+    bottom: 650px;
+    right: 100px;
+}
+main .app-download .mobile-pic .rings .ring-2{
+    width: 17px;
+    position: relative;
+    bottom: 220px;
+    left: 500px;
+}
+main .app-download .mobile-pic .rings .ring-3{
+    width: 34px;
+    position: relative;
+    bottom: 140px;
+    right: 180px;
+}
+main .app-download .mobile-pic .rings .ring-4{
+    width: 50px;
+    position: relative;
+    bottom: 630px;
+    left: 410px;
+}
+main .registration-area{
+    background: #E5C643;
+}
+main .registration-area .main-text{
+    padding-top: 150px;
+}
+main .registration-area .main-text p{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 70px;
+    color: #fff;
+    display: flex;
+    justify-content: center;  
+}
+main .registration-area .second-text p{
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 35px;
+    color: #fff;
+}
+main .registration-area .registration{
+    padding-top: 70px;
+    padding-bottom: 150px;
+}
+main .registration-area .registration .input-wrapper{
+    background: white;
+    width: 27%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    display: flex;
+}
+main .registration-area .registration .input-wrapper input{
+    border: none;
+    outline: none;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    width: 100%;
+}
+main .registration-area .registration .input-wrapper button{
+    margin-left: auto;
+    background: black;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background: black;
+    padding-top: 200px;
+    padding-bottom: 300px;
+}
+footer .social-media-and-text{
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+footer .social-media-and-text .firs-row{
+    width: 46%;
+}
+footer .social-media-and-text .firs-row .main-text{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 20px;
+    color: white;
+}
+footer .social-media-and-text .firs-row .second-text ul{
+    list-style: none;
+    margin-bottom: 20px;
+}
+footer .social-media-and-text .firs-row .second-text ul li{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #8E8E8E;
+}
+footer .social-media-and-text .firs-row .media-pics ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-between;
+}
+footer .social-media-and-text .firs-row .media-pics ul li img{
+    cursor: pointer;
+}
+footer .social-media-and-text .second-row{
+    width: 18%;
+}
+footer .social-media-and-text .second-row .title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #D9D9D9;
+    margin-bottom: 20px;
+}
+footer .social-media-and-text .second-row .list ul{
+    list-style: none;
+}
+footer .social-media-and-text .second-row .list ul li{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #8E8E8E;
+}
+footer .social-media-and-text .third-row{
+    width: 18%;
+}
+footer .social-media-and-text .third-row .title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #D9D9D9;
+    margin-bottom: 20px;
+}
+footer .social-media-and-text .third-row .list ul{
+    list-style: none;
+}
+footer .social-media-and-text .third-row .list ul li{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #8E8E8E;
+}
+footer .social-media-and-text .fourth-row{
+    width: 18%;
+}
+footer .social-media-and-text .fourth-row .title{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #D9D9D9;
+    margin-bottom: 20px;
+}
+footer .social-media-and-text .fourth-row .list ul{
+    list-style: none;
+}
+footer .social-media-and-text .fourth-row .list ul li{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    color: #8E8E8E;
+}
